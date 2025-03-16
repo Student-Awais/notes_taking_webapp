@@ -4,9 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+    <title>Notes Taking App</title>
   </head>
   <body>
-    <h1>me index.ejs hu</h1>
+    <div class="main w-full min-h-screen bg-zinc-900 text-white bg-">
+      <div class="form">
+        <form action="">
+          <input type="text" name="title" id="title" placeholder="Title" />
+          <textarea
+            placeholder="Write your Task details here"
+            name="details"
+          ></textarea>
+          <input type="submit" value="Add Task" />
+        </form>
+      </div>
+    </div>
   </body>
 </html>
